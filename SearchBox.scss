@@ -1,0 +1,66 @@
+body{
+ 
+    background: url('http://i.hizliresim.com/v4Qykv.png') no-repeat center center fixed;
+    font-family: 'Open Sans', sans-serif;
+
+    .title{
+     margin-top: 70px;
+     text-align: center;
+     font-size: 25px;
+     color: #0b7c3e;
+    }
+
+}
+  .search-wrapper{
+  
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  @media only screen and (min-width: 768px) {
+ 
+        width: 50%;
+    
+  }
+
+  @media only screen and (min-width: 1200px) {
+ 
+        width: 30%;
+     
+  }
+    .search {
+      width: 100%;
+      position: relative;
+      display: flex;
+
+    }
+    
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #00B4CC;
+      padding: 5px;
+      height: 20px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: #9DBFAF;
+    }
+    
+    .searchTerm:focus{
+      color: #00B4CC;
+    }
+    
+    .searchButton {
+      width: 40px;
+      height: 36px;
+      border: 1px solid #00B4CC;
+      background: #00B4CC;
+      text-align: center;
+      color: #fff;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+
